@@ -1,16 +1,52 @@
-body, h1 {
-    margin: 0;
-}
-
-#app {
+body {
+    font-family: "Smythe", system-ui;
     display: flex;
     justify-content: center;
 }
 
+body, h1, h2 {
+    margin: 0;
+}
+
 header {
+    padding: 1.875rem 1.875rem 0;
     background-image: url("../public/headerBackground.svg");
     background-repeat: no-repeat;
-    width: 640px;
-    height: 427px;
+    width: 40rem;
     color: #ffff;
+}
+
+h1,h2 {
+    font-weight: lighter;
+}
+
+main {
+    width: 34.6rem;
+    padding: 1.25rem;
+}
+
+section {
+    padding: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: #8B8B8B solid 0.063rem;
+}
+
+.dishInfoContainer {
+    display: flex;
+}
+
+.dishEmoji {
+    display: flex;
+    align-self: center;
+    font-size: 3.125rem;
+    margin-right: 1.5rem;
+}
+
+.addButton {
+    width: 3rem;
+    height: 3rem;
+    background-color: #ffff;
+    border-radius: 50%;
+    align-self: center;
 }

@@ -13,6 +13,7 @@ header {
     background-image: url("../public/headerBackground.svg");
     background-repeat: no-repeat;
     width: 40rem;
+    height: 8.6rem;
     color: #ffff;
 }
 
